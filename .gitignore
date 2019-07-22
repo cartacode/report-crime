@@ -3,7 +3,7 @@
 *.svg
 *.pdf
 R/graphs/*.png
-crimenmexico.diegovalle.net/images/smooth-latest.png
+report-crime/images/smooth-latest.png
 *.pyc
 *.md5
 *.xlsb
@@ -25,4 +25,4 @@ password.txt
 tweets.txt
 R/data/INEGI_exporta.csv
 
-!crimenmexico.diegovalle.net/assets/json/municipios-centroids.csv
+!report-crime/assets/json/municipios-centroids.csv

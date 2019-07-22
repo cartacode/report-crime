@@ -1,20 +1,16 @@
-[![Build Status](https://circleci.com/gh/diegovalle/new.crimenmexico.png?style=shield&circle-token=:circle-token)](https://circleci.com/gh/diegovalle/new.crimenmexico)
 
-# new.crimenmexico
+# report crimes
 
-Source code for generating the website
-[elcri.men](https://elcri.men)
+Web application that analyze crimes and visualize
 
 The easiest way to create the website is to run the docker container
 
-```
-docker pull diegovalle/elcrimen-docker
-docker run -it diegovalle/elcrimen-docker
-```
+![Alt Text](https://github.com/it-avenger/report-crime/raw/master/report-crime/assets/images/home)
+![Alt Text](https://github.com/it-avenger/report-crime/raw/master/report-crime/assets/images/leaflet)
 
-and change to the /root/new.crimenmexico directory, ```git pull``` to get the latest version and run make. The website will
+and change to the /root/report-crime, ```git pull``` to get the latest version and run make. The website will
 be available in the _crimenmexico.diegovalle.net_ subdir. If you don't have
-the private key to deploy to [elcri.men](https://elcri.men) you can always run the command:
+the private key to deploy you can always run the command:
 
 ```
 make download_csv download_inegi clean_data analysis website

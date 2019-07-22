@@ -116,7 +116,7 @@ tryCatch({
                              "and help discover patterns in the data, the homicide rate in each municipio was calculated\n",
                              "based on a GAM with a Gaussian Markov random field smoother and a zero-inflated Poisson\n",
                              "response, with each state included as a treatment variable. Homicides include feminicides."))
-  ggsave("../crimenmexico.diegovalle.net/images/smooth-latest.png", dpi = 100, width = 16, height = 11)
+  ggsave("../report-crime/images/smooth-latest.png", dpi = 100, width = 16, height = 11)
   
   
   

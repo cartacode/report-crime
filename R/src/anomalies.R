@@ -261,7 +261,7 @@ grid.rect(gp = gpar(fill = "#E7A922", col = "#E7A922"),
           x = unit(0.5, "npc"), y = unit(0.951, "npc"), 
           width = unit(1, "npc"), height = unit(0.025, "npc"))
 grid.text("All municipios with a crime rate anomaly during the last available date (30 day months).
-Author: Diego Valle-Jones                                                    http://crimenmexico.diegovalle.net/en                                                    Source: SNSP and CONAPO", vjust = 0, hjust = 0, x = unit(0.01, "npc"), 
+Author: Diego Valle-Jones                                                    http://report-crime/en                                                    Source: SNSP and CONAPO", vjust = 0, hjust = 0, x = unit(0.01, "npc"), 
           y = unit(0.94, "npc"), 
           gp = gpar(fontfamily = "Ubuntu", col = "#552683", cex = 1.08))
 # all the charts
@@ -304,7 +304,7 @@ grid.rect(gp = gpar(fill = "#E7A922", col = "#E7A922"),
           x = unit(0.5, "npc"), y = unit(0.951, "npc"), 
           width = unit(1, "npc"), height = unit(0.025, "npc"))
 grid.text("Todos los municipios con tasas de criminalidad fuera de lo normal durante la última fecha disponible para delitos seleccionados (meses de 30 días).
-Autor: Diego Valle                                                               http://crimenmexico.diegovalle.net/es                                                               Fuente: SNSP y CONAPO", vjust = 0, hjust = 0, x = unit(0.01, "npc"), 
+Autor: Diego Valle                                                               http://report-crime/es                                                               Fuente: SNSP y CONAPO", vjust = 0, hjust = 0, x = unit(0.01, "npc"), 
           y = unit(0.94, "npc"), 
           gp = gpar(fontfamily = "Ubuntu", col = "#552683", cex = 1.08))
 # all the charts
